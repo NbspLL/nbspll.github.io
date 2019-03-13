@@ -32,6 +32,122 @@ Git版本管理工具各个平台安装包从官方网站处下载
     </item>
     
     <item>
+      <title>Hello Hugo (三)</title>
+      <link>http://nbspll.github.io/2019/hugo%E6%95%99%E7%A8%8B%E4%B8%89/</link>
+      <pubDate>Mon, 18 Feb 2019 17:05:32 +0800</pubDate>
+      
+      <guid>http://nbspll.github.io/2019/hugo%E6%95%99%E7%A8%8B%E4%B8%89/</guid>
+      <description>设置  config.toml 说明 header 注意事项 快捷指令   设置 config.toml  菜单设置如下(可以自定义)  ├──[menu]
+├──[[menu.min]]
+├──name = &amp;quot;Blog&amp;quot;
+├──url = &amp;quot;/posts/&amp;quot;
+├──weight = 1
+├──[[menu.main]]
+├──name = &amp;quot;Categories&amp;quot;
+├──url = &amp;quot;/categories/&amp;quot;
+├──weight = 2
+├──[[menu.main]]
+├──name = &amp;quot;Tags&amp;quot;
+├──url = &amp;quot;/tags/&amp;quot;
+├──weight = 3
+├──[[menu.main]]
+├──name = &amp;quot;About&amp;quot;
+└──url = &amp;quot;/about/&amp;quot;
+  说明  Hugo的文章都是由Markdown语法转换成Html的 Frist.你需要掌握Markdwon语法 Second.你需要会使用Git来把代码部署到Github Third.写文章时候headre部分要注意  header  title: &amp;ldquo;Hugo set&amp;rdquo;
+ date: 2019-02-18T17:05:32+08:00</description>
+    </item>
+    
+    <item>
+      <title>Hello Hugo (二)</title>
+      <link>http://nbspll.github.io/2019/hugo%E6%95%99%E7%A8%8B%E4%BA%8C/</link>
+      <pubDate>Mon, 18 Feb 2019 17:05:32 +0800</pubDate>
+      
+      <guid>http://nbspll.github.io/2019/hugo%E6%95%99%E7%A8%8B%E4%BA%8C/</guid>
+      <description>1. 生成站点  1.1. 具体步骤  1.1.0.1. 创建页面与文章 1.1.0.2. 预览站点  部署Github   1. 生成站点 -打开Cmd,进入D盘，使用hugo命令生成新站点.
+&amp;nbsp;Cmd命令行中输入 hugo new site blog &amp;nbsp;打开F盘就会有名为blog的文件夹,这就是我们hugo的站点根目录,我们看看目录结构
+ Blog ├── archetypes ├── config.yaml ├── content ├── data ├── layouts ├── static └── themes  一共六个文件夹，外加一个全局配置文件config.yaml（类似 hexo 的_config.yml），各个文件夹的作用如下：
+ archetypes：给不同的类型定义默认FrontMatter， content：源文件，相当于 hexo 的 source 目录 data：数据文件，一般用不上 layouts：模板 static：静态资源，也就是不需要Hugo处理的静态资源，比如图片等 themes：第三方主题，将第三方主题拷贝到这个文件夹下即可使用  &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;比较常用的就是 content 和 themes ，一个存放内容，一个存放主题。
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;然后在官网选择一个主题拷贝到 themes 目录。
+1.1. 具体步骤  从github里获取主题,使用Git获取文件
+ 打开Git Bash，进入我们的网站根目录里的themes，输入如下指令获取主题</description>
+    </item>
+    
+    <item>
+      <title>MinecraftPE·Maze·简介</title>
+      <link>http://nbspll.github.io/2019/minecraftpe%E5%89%A7%E6%83%85/</link>
+      <pubDate>Mon, 18 Feb 2019 17:05:32 +0800</pubDate>
+      
+      <guid>http://nbspll.github.io/2019/minecraftpe%E5%89%A7%E6%83%85/</guid>
+      <description>MazeMolibe  故事 Abell 星系 CHX 恒星  Elemental 晶石 LIX 系统 CHYM 团队 反应堆 折跃加速器    MazeMolibe 故事 &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;公纪，7092年12点24分探索号，CHX星通过超星系猎户座的虫洞迁移，我们抵达了一个名为阿贝尔2029星系群，星系代号(IC1101)。 我们的CHX星球被拉扯到了，Abell的星系群，在这里加入正常的星轨，幸运的是我们没有在这茫茫宇宙中失落，不幸的是我们的星球即将毁灭，需要创造出更多晶核与能源，供养星球，维持生存。还有在这广袤无垠的未知星系群中，剩下的人类将面临什么危机&amp;hellip;..
+Abell 星系 &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Abell 2029或A 2029是一个巨大的星系团，距离室女座315个巨型星系(10.27亿光年)。A 2029是一个Bautz-Morgan分类的I型星系团，因为它有一个巨大的中心星系IC 1101。阿贝尔2029年的直径为580万至80万磅。这种类型的星系被称为CD型最亮的星系团星系，并可能通过增大附近的星系而增长到它的大尺寸。尽管它处于放松状态，但它是一个大型超级星系团的中心成员，它显示出明显的相互作用迹象。
+CHX 恒星 &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;CHX星是亘古之前人类迁移过的行星，这个恒星，这也是人类离开地球时第一个发现的并迁移的生命恒星，原名开普勒-438b，后改名CHX星，原因不详。
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;开普勒-438b是一颗确认存在的体积与地球相近的岩石质太阳系外行星，位于红矮星开普勒438的适居带，在天球上位于天琴座。
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;CHX星,后来经过人类的过度开发，面临毁灭的危机，人类当发觉时已经晚了，CHX星缺少能源与晶核补充，随时都可能崩溃。
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;CHYM科学团队，发现了利用大量核反应堆可能维持住星球的毁灭，但是想修复却无稽之谈。人们，却不打算再消耗巨大代价维持这颗星球，最终，部分权贵，和强大国家离开了这颗星球，开始了漫长的移民之旅。
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;被留下的人十分愤怒，十分不甘，发起了战争，他们攻击飞船，阻止离开，后来被各国政府暴力镇压。它们不甘心的被迫在CHX星上继续生存。
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;而没有了太多人类的打扰，CHX星上的生物开始自由自在的进化和变异。存活在CHX星的人类更加艰难的存活，留下的人类建造了(生活区)，在生活区的外围是超大的移动迷宫，在那里是变异生物的领地，人类在生活区内生存，整个迷宫是由LIX系统控制的（超智慧AI），能自动保持迷宫平衡，保障生存.可以自我修复。自我创造。
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;设计LIX系统的是CHMY的团队他们设计后封闭了整个LIX系统。然后离开了也离开了CHX星，去寻找新的家园，他们希望有朝一日，他们能找到新的家园，接这些遗弃的人回家。
+Elemental 晶石 &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;简称，元素晶石，用来补充CHX星的能源供给的重要物品，需要不断的注入在星核内供给星球能量，维持恒星平衡正常运转。晶石由反应堆提炼而成。元素晶石
+LIX 系统 &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;由CHXYM团队设计的保护系统，超智慧人工智能，平衡人类生活区的一切事项，拥有自我意识，后因自我觉醒，无组织化，自动扩展，迷宫范围，被CHYM封闭，默认处于休眠状态。
+CHYM 团队 &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;隶属于CHX星人类保护组织的神秘团队，拥有着LIX系统的掌控权。后因LIX系统叛逃，自我封闭，失去掌控，修复失败，而离开CHX星去探索Abell星系，希望能有昭一日，带离苦难的人群。
+反应堆 &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;人们建造反应堆，产出元素晶石。不同等级的反应堆，产能也不一样。详情查看 wiki .
+折跃加速器 &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;加速反应堆的产能，使反应堆的更加稳定。</description>
+    </item>
+    
+    <item>
+      <title>MinecraftPE·Maze·经济</title>
+      <link>http://nbspll.github.io/2019/minecraftpe%E7%BB%8F%E6%B5%8E/</link>
+      <pubDate>Mon, 18 Feb 2019 17:05:32 +0800</pubDate>
+      
+      <guid>http://nbspll.github.io/2019/minecraftpe%E7%BB%8F%E6%B5%8E/</guid>
+      <description>经济系统  反应堆 反应堆等级  货币 - CH币 - 元素晶石 - 银行股市 - 贷款 - 投资  版本：1.0-SNAPSHOT
+命名空间：net.baqc.chym.mazemobile.MazeMobile
+接口：net.baqc.chym.mazemobile.MazeMobileAPI
+指令：/systemcall [args]
+/systemcall status 系统状态
+/systemcall admin 呼出管理员GUI
+/systemcall service [start/stop] 开启/停止服务（停止之后会将玩家传送到大厅）
+权限：OP + AdminWhiteList
+经济系统  养成类玩法会牢牢抓住你的心 自动化经济，时间效益   不会占用玩家太多时间也能让玩家享受乐趣
+可以引起玩家的经济思考，也大大提高了游戏的可玩性.
+  打怪经济 &amp;gt;击杀迷宫里的boss获取收益
+击杀悬赏玩家获得收益
+开宝箱获得收益
+完成任务获得收益
+ 自由交易 &amp;gt; 禁止高级货币交易
+ 拍卖行交易 &amp;gt;交易行交易需缴纳手续费
+可进行多种货币交换
+拍卖行可进行拍卖
+ 签到/礼包/任务获取经济
+ 1.每日签到
+ 2.兑换礼包
+&amp;gt;在官网活动中获取
+&amp;gt;通过cdk获取
+&amp;gt;购买获取</description>
+    </item>
+    
+    <item>
+      <title>成长·从高中到大学</title>
+      <link>http://nbspll.github.io/2019/%E4%BB%8E%E8%81%8C%E9%AB%98%E5%88%B0%E5%A4%A7%E4%B8%93/</link>
+      <pubDate>Mon, 18 Feb 2019 17:05:32 +0800</pubDate>
+      
+      <guid>http://nbspll.github.io/2019/%E4%BB%8E%E8%81%8C%E9%AB%98%E5%88%B0%E5%A4%A7%E4%B8%93/</guid>
+      <description>题记 &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;可知我从高中走入大学
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;唉，好长的梦，一觉醒来，高中已经毕业。
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;时光荏苒，岁月如歌。
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;那年，我们背着书包踏入高中，忙着认识新朋友。
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;那年，我们藏在书后侧过脸庞，偷着说老师坏话。
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;那年，我们穿过走廊迈出校门，笑着聊今日乐事。
+高中 &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;高中的每天，我可以见到父母，从未洗过衣服，也从未担心早餐。 当某天，我与高考的距离越来越近，不知为何，我发现自己累了，开始在课堂上与梦相约，但我却不曾放弃拼命学习，尽管频繁的考试又怎能抵挡高三学子飞向前方的梦。
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;终于，倒计时的钟声不再响起，原来我已面临毕业，身坐考场的自己，我明白我们写下的每一笔都是无悔的青春，随着最后一个句号的完成，一段梦结束了，又有一段梦想正在启程。
+大学 &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;转眼三月，我带着载满梦想的行李箱来到北信，我的大学就这样慢慢开始，自由的生活让我学会独立。
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;与中学相比，大学的生活节奏快，活动空间大，学习任务繁重，面临独立解决的问题多。面对这些变化，大学新生的思维方式：要三思而后行，不能随心所欲，由感性向理性转变；要有远见卓识而不要目光短线；要克服依赖思想，培养独立思考和解决问题的能力；要加强道德和法治的观念，做事要有责任心，要考虑到行为的后果，不做鲁莽之事。
+对比 &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;在中学时，有些生活琐事依靠父母亲友的帮忙，进入大学后，衣食住行的个人生活都由自己处理安排，自主、自立、自律是大学生活的主旋律。
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;生活上必须学会独立生活。要树立正确的生活观念。大学生活是丰富多彩的，应该做到有效的学习，有序的生活，有益的娱乐，有心的交往，有度的消费。
+感悟 &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;从高中到大学，就是从孩子到成年的转变，未来可期&amp;hellip;&amp;hellip;</description>
+    </item>
+    
+    <item>
       <title>Homebrew</title>
       <link>http://nbspll.github.io/2019/homebrew/</link>
       <pubDate>Mon, 18 Feb 2019 00:00:00 +0000</pubDate>
@@ -51,6 +167,22 @@ Git版本管理工具各个平台安装包从官方网站处下载
   在更改了brew的源之后，运行brew doctor时会出现警告信息，可以无视。如果实在是有强迫症或者有梯子正常访问『外网』可以不用替换。
 brew基本使用 Homebrew的可执行命令是brew，其基本使用方法如下（以wget为例）。
  brew search wget # 查找软件包 brew install wget # 安装软件包 brew list # 列出已安装的软件包 brew remove wget # 删除软件包 brew info wget # 查看软件包信息 brew deps wget # 列出软件包的依赖关系 brew update # 更新brew brew outdated # 列出过时的软件包（已安装但不是最新版本） brew upgrade # 更新所有过时的软件包 brew upgrade wget # 更新指定的软件包wget brew doctor # 检查brew的问题 brew cleanup # 清理旧版本的包缓存时 brew prune # 清理和删除无效 Link  例如需要安装nodejs,只需要运行brew install node即可，会自动给你安装nodejs最新的版本（非LTS版）。</description>
+    </item>
+    
+    <item>
+      <title>Hello Hugo</title>
+      <link>http://nbspll.github.io/2018/hello-hugo/</link>
+      <pubDate>Sun, 18 Feb 2018 17:05:32 +0800</pubDate>
+      
+      <guid>http://nbspll.github.io/2018/hello-hugo/</guid>
+      <description>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;不算上17年的那一篇文章，其实有两年没有更新博客了。停滞了太久，都不知道要怎么再出发。回想起来好像还是最开始写独立博客的时候比较勤奋，只可惜博客系统换来换去，丢失了太多的博文。
+其实写博客还是有很多好处的，除了锻炼写作能力，比如可以保持思考的习惯，可以保持前沿技术的敏感性，可以督促自己不断学习，最主要的是可以沉淀自己…只是在越来越浮躁的社会，我们总是不由自主的想走捷径，一味的追求快速和便捷，比如平时遇到个技术问题，Google之后用 Evernote 记录下就好了，如果要写篇博文，可能还需要介绍下问题的背景，对于解决方案还需要做下发散。又比如突然冒出个什么想法或是看到某句特别有感触的话，可能就直接保存到 Google Keep 了，如果又要写篇博文，没人会懂你的柔软，只会觉得你无病呻吟。所以有时候想写点东西，又不知道写什么。其实这一直都不是个问题啊，就去写好了，有没有人喝彩，又有什么不同？
+在此之前是使用 Hexo，虽然各种主题插件支持都很完善，但是其缺点是一大堆nodejs的依赖，记得以前每次更新下 Node 就各种莫名其妙的问题，另外生成的速度非常慢。这次使用的 Hugo 是基于 Go 开发，也是我目前用得比较多的一门语言。直接编译生成一个二进制文件，没有包依赖的问题，生成速度相比 Hexo 快的不只是一点点。目前我博客所有博文加上各种 Page、Tag 页面300篇左右，生成速度不到1秒。于是花了几个周末的时间，把博客迁移到了 Hugo，嗯，又开始折腾了。
+安装 使用 Homebrew 安装.(如果还没有安装Homebrew，参考：这里)
+ brew install hugo  新建站点 直接在 Home 目录生成Blog 站点。
+ hugo new site ~/Blog  使用上述命令会在当前用户目录下面生成一个Blog 站点，打开后看到如下图的站点目录结构
+ Blog ├── archetypes ├── config.yaml ├── content ├── data ├── layouts ├── static └── themes  一共六个文件夹，外加一个全局配置文件config.yaml（类似 hexo 的_config.yml），各个文件夹的作用如下：
+ archetypes：给不同的类型定义默认FrontMatter， content：源文件，相当于 hexo 的 source 目录 data：数据文件，一般用不上 layouts：模板 static：静态资源，也就是不需要Hugo处理的静态资源，比如图片等 themes：第三方主题，将第三方主题拷贝到这个文件夹下即可使用  比较常用的就是 content 和 themes ，一个存放内容，一个存放主题。可以直接将 hexo 中 source 目录下的 md 文件全拷贝到content目录。 同时将图片资源文件拷贝到 static 目录。因为文章和目录结构都没有改变，所有文章里面的图片链接路径都不需要修改。如果之前的 Markdown 文件都使用了 Hexo 标准的 Front-matter，Hugo 支持 yaml、toml、json 三种格式的Front matter，像 title、date、categories、tags这样的字段，Hugo 也无缝支持。</description>
     </item>
     
   </channel>

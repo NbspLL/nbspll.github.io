@@ -29,5 +29,23 @@
       <description></description>
     </item>
     
+    <item>
+      <title>Minecraft</title>
+      <link>http://nbspll.github.io/categories/minecraft/</link>
+      <pubDate>Mon, 18 Feb 2019 17:05:32 +0800</pubDate>
+      
+      <guid>http://nbspll.github.io/categories/minecraft/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>文章</title>
+      <link>http://nbspll.github.io/categories/%E6%96%87%E7%AB%A0/</link>
+      <pubDate>Mon, 18 Feb 2019 17:05:32 +0800</pubDate>
+      
+      <guid>http://nbspll.github.io/categories/%E6%96%87%E7%AB%A0/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
