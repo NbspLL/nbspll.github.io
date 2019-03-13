@@ -6,8 +6,94 @@
     <description>Recent content in My New Hugo Site on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 18 Feb 2019 17:05:32 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 19 Feb 2019 17:05:32 +0800</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>JavaScript-简介</title>
+      <link>http://nbspll.github.io/2019/js%E7%AE%80%E4%BB%8B/</link>
+      <pubDate>Tue, 19 Feb 2019 17:05:32 +0800</pubDate>
+      
+      <guid>http://nbspll.github.io/2019/js%E7%AE%80%E4%BB%8B/</guid>
+      <description>
+
+&lt;h2 id=&#34;javascript简介&#34;&gt;JavaScript简介&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;JavaScript一种直译式脚本语言，是一种动态类型、弱类型、基于原型的语言，内置支持类型.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;JavaScript引擎，为浏览器的一部分，广泛用于客户端的脚本语言，最早是在HTML（标准通用标记语言下的一个应用）网页上使用，用来给HTML网页增加动态功能。&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;在1995年时，由&lt;a href=&#34;http://nbspll.github.io/item/Netscape&#34;&gt;Netscape&lt;/a&gt;公司的&lt;a href=&#34;http://nbspll.github.io/item/Brendan%20Eich&#34;&gt;Brendan Eich&lt;/a&gt;，在&lt;a href=&#34;http://nbspll.github.io/item/%E7%BD%91%E6%99%AF%E5%AF%BC%E8%88%AA%E8%80%85/10404300&#34;&gt;网景导航者&lt;/a&gt;浏览器上首次设计实现而成。因为&lt;a href=&#34;http://nbspll.github.io/item/Netscape&#34;&gt;Netscape&lt;/a&gt;与&lt;a href=&#34;http://nbspll.github.io/item/Sun/69463&#34;&gt;Sun&lt;/a&gt;合作，&lt;a href=&#34;http://nbspll.github.io/item/Netscape&#34;&gt;Netscape&lt;/a&gt;管理层希望它外观看起来像&lt;a href=&#34;http://nbspll.github.io/item/Java/85979&#34;&gt;Java&lt;/a&gt;，因此取名为JavaScript。但实际上它的语法风格与&lt;a href=&#34;http://nbspll.github.io/item/Self/4959923&#34;&gt;Self&lt;/a&gt;及&lt;a href=&#34;http://nbspll.github.io/item/Scheme&#34;&gt;Scheme&lt;/a&gt;较为接近。&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;为了取得技术优势，&lt;a href=&#34;http://nbspll.github.io/item/%E5%BE%AE%E8%BD%AF/124767&#34;&gt;微软&lt;/a&gt;推出了&lt;a href=&#34;http://nbspll.github.io/item/JScript&#34;&gt;JScript&lt;/a&gt;，CEnvi推出ScriptEase，与JavaScript同样可在浏览器上运行。为了统一规格，因为JavaScript兼容于ECMA标准，因此也称为&lt;a href=&#34;http://nbspll.github.io/item/ECMAScript&#34;&gt;ECMAScript&lt;/a&gt;。&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://nbspll.github.io/item/%E6%96%87%E6%A1%A3%E5%AF%B9%E8%B1%A1%E6%A8%A1%E5%9E%8B&#34;&gt;文档对象模型&lt;/a&gt;（DOM），描述处理网页内容的方法和接口。&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;浏览器对象模型（&lt;a href=&#34;http://nbspll.github.io/item/BOM/1801&#34;&gt;BOM&lt;/a&gt;），描述与浏览器进行交互的&lt;a href=&#34;http://nbspll.github.io/item/%E6%96%B9%E6%B3%95/3009367&#34;&gt;方法&lt;/a&gt;和&lt;a href=&#34;http://nbspll.github.io/item/%E6%8E%A5%E5%8F%A3&#34;&gt;接口&lt;/a&gt;。&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;javascript基本特点&#34;&gt;javascript基本特点&lt;/h2&gt;
+
+&lt;p&gt;JavaScript是一种属于网络的脚本语言,已经被广泛用于Web应用开发,常用来为网页添加各式各样的动态功能,为用户提供更流畅美观的浏览效果。通常JavaScript脚本是通过嵌入在HTML中来实现自身的功能的。&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;是一种解释性脚本语言（代码不进行&lt;a href=&#34;http://nbspll.github.io/item/%E9%A2%84%E7%BC%96%E8%AF%91&#34;&gt;预编译&lt;/a&gt;）。&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;主要用来向&lt;a href=&#34;http://nbspll.github.io/item/HTML&#34;&gt;HTML&lt;/a&gt;（&lt;a href=&#34;http://nbspll.github.io/item/%E6%A0%87%E5%87%86%E9%80%9A%E7%94%A8%E6%A0%87%E8%AE%B0%E8%AF%AD%E8%A8%80&#34;&gt;标准通用标记语言&lt;/a&gt;下的一个应用）页面添加交互行为。&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;可以直接嵌入HTML页面，但写成单独的&lt;a href=&#34;http://nbspll.github.io/item/js/10687961&#34;&gt;js&lt;/a&gt;文件有利于结构和行为的&lt;a href=&#34;http://nbspll.github.io/item/%E5%88%86%E7%A6%BB&#34;&gt;分离&lt;/a&gt;。&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;跨平台特性，在绝大多数浏览器的支持下，可以在多种平台下运行（如&lt;a href=&#34;http://nbspll.github.io/item/Windows&#34;&gt;Windows&lt;/a&gt;、&lt;a href=&#34;http://nbspll.github.io/item/Linux&#34;&gt;Linux&lt;/a&gt;、Mac、Android、iOS等）。&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Javascript脚本语言同其他语言一样，有它自身的基本数据类型，表达式和算术运算符及程序的基本程序框架。Javascript提供了四种基本的数据类型和两种特殊数据类型用来处理数据和文字。而变量提供存放信息的地方，表达式则可以完成较复杂的信息处理。&lt;/p&gt;
+
+&lt;h2 id=&#34;javascript日常用途&#34;&gt;javascript日常用途&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;嵌入&lt;a href=&#34;http://nbspll.github.io/item/%E5%8A%A8%E6%80%81%E6%96%87%E6%9C%AC&#34;&gt;动态文本&lt;/a&gt;于HTML页面。&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;对浏览器事件做出响应。&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;读写&lt;a href=&#34;http://nbspll.github.io/item/HTML%E5%85%83%E7%B4%A0&#34;&gt;HTML元素&lt;/a&gt;。&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;在数据被提交到服务器之前验证数据。&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;检测访客的浏览器信息。&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;控制&lt;a href=&#34;http://nbspll.github.io/item/cookies/187064&#34;&gt;cookies&lt;/a&gt;，包括创建和修改等。&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;基于Node.js技术进行服务器端编程。&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&#34;javascript历史&#34;&gt;javascript历史&lt;/h2&gt;
+
+&lt;p&gt;它最初由&lt;a href=&#34;http://nbspll.github.io/item/Netscape&#34;&gt;Netscape&lt;/a&gt;的&lt;a href=&#34;http://nbspll.github.io/item/Brendan%20Eich&#34;&gt;Brendan Eich&lt;/a&gt;设计。JavaScript是&lt;a href=&#34;http://nbspll.github.io/item/%E7%94%B2%E9%AA%A8%E6%96%87/471435&#34;&gt;甲骨文&lt;/a&gt;公司的注册商标。&lt;a href=&#34;http://nbspll.github.io/item/Ecma%E5%9B%BD%E9%99%85&#34;&gt;Ecma国际&lt;/a&gt;以JavaScript为基础制定了&lt;a href=&#34;http://nbspll.github.io/item/ECMAScript&#34;&gt;ECMAScript&lt;/a&gt;标准。JavaScript也可以用于其他场合，如服务器端编程。完整的JavaScript实现包含三个部分：&lt;a href=&#34;http://nbspll.github.io/item/ECMAScript&#34;&gt;ECMAScript&lt;/a&gt;，&lt;a href=&#34;http://nbspll.github.io/item/%E6%96%87%E6%A1%A3%E5%AF%B9%E8%B1%A1%E6%A8%A1%E5%9E%8B&#34;&gt;文档对象模型&lt;/a&gt;，浏览器对象模型。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://nbspll.github.io/item/Netscape&#34;&gt;Netscape&lt;/a&gt;在最初将其脚本语言命名为&lt;a href=&#34;http://nbspll.github.io/item/LiveScript&#34;&gt;LiveScript&lt;/a&gt;，后来Netscape在与Sun合作之后将其改名为JavaScript。JavaScript最初受Java启发而开始设计的，目的之一就是“看上去像Java”，因此语法上有类似之处，一些名称和命名规范也借自Java。但JavaScript的主要设计原则源自&lt;a href=&#34;http://nbspll.github.io/item/Self/4959923&#34;&gt;Self&lt;/a&gt;和&lt;a href=&#34;http://nbspll.github.io/item/Scheme&#34;&gt;Scheme&lt;/a&gt;。JavaScript与Java名称上的近似，是当时&lt;a href=&#34;http://nbspll.github.io/item/Netscape&#34;&gt;Netscape&lt;/a&gt;为了营销考虑与Sun微系统达成协议的结果。为了取得技术优势，微软推出了&lt;a href=&#34;http://nbspll.github.io/item/JScript&#34;&gt;JScript&lt;/a&gt;来迎战JavaScript的脚本语言。为了互用性，&lt;a href=&#34;http://nbspll.github.io/item/Ecma%E5%9B%BD%E9%99%85&#34;&gt;Ecma国际&lt;/a&gt;（前身为欧洲计算机制造商协会）创建了ECMA-262标准（&lt;a href=&#34;http://nbspll.github.io/item/ECMAScript&#34;&gt;ECMAScript&lt;/a&gt;）。两者都属于ECMAScript的实现。尽管JavaScript作为给非程序人员的脚本语言，而非作为给程序人员的脚本语言来推广和宣传，但是JavaScript具有非常丰富的特性。&lt;/p&gt;
+
+&lt;p&gt;发展初期，JavaScript的标准并未确定，同期有&lt;a href=&#34;http://nbspll.github.io/item/Netscape&#34;&gt;Netscape&lt;/a&gt;的JavaScript，微软的JScript和CEnvi的ScriptEase三足鼎立。1997年，在ECMA（欧洲计算机制造商协会）的协调下，由Netscape、Sun、微软、Borland组成的工作组确定统一标准：ECMA-262。&lt;/p&gt;
+
+&lt;h2 id=&#34;javascript特性&#34;&gt;javascript特性&lt;/h2&gt;
+
+&lt;p&gt;JavaScript脚本语言具有以下特点:&lt;/p&gt;
+
+&lt;p&gt;(1)&lt;a href=&#34;http://nbspll.github.io/item/%E8%84%9A%E6%9C%AC%E8%AF%AD%E8%A8%80&#34;&gt;脚本语言&lt;/a&gt;。JavaScript是一种解释型的脚本语言,C、&lt;a href=&#34;http://nbspll.github.io/item/C%2B%2B&#34;&gt;C++&lt;/a&gt;等语言先&lt;a href=&#34;http://nbspll.github.io/item/%E7%BC%96%E8%AF%91&#34;&gt;编译&lt;/a&gt;后执行,而JavaScript是在程序的运行过程中逐行进行解释。&lt;/p&gt;
+
+&lt;p&gt;(2)基于对象。JavaScript是一种基于对象的脚本语言,它不仅可以创建对象,也能使用现有的对象。&lt;/p&gt;
+
+&lt;p&gt;(3)简单。JavaScript语言中采用的是弱类型的变量类型,对使用的数据类型未做出严格的要求,是基于Java基本语句和控制的脚本语言,其设计简单紧凑。&lt;/p&gt;
+
+&lt;p&gt;(4)动态性。JavaScript是一种采用事件驱动的脚本语言,它不需要经过Web服务器就可以对用户的输入做出响应。在访问一个网页时,鼠标在网页中进行鼠标点击或上下移、窗口移动等操作JavaScript都可直接对这些事件给出相应的响应。&lt;/p&gt;
+
+&lt;p&gt;(5)跨平台性。JavaScript脚本语言不依赖于操作系统,仅需要浏览器的支持。因此一个JavaScript脚本在编写后可以带到任意机器上使用,前提上机器上的浏览器支 持JavaScript脚本语言,目前JavaScript已被大多数的浏览器所支持。&lt;/p&gt;
+
+&lt;p&gt;不同于服务器端脚本语言，例如&lt;a href=&#34;http://nbspll.github.io/item/PHP/9337&#34;&gt;PHP&lt;/a&gt;与&lt;a href=&#34;http://nbspll.github.io/item/ASP/128906&#34;&gt;ASP&lt;/a&gt;，JavaScript主要被作为客户端脚本语言在用户的浏览器上运行，不需要服务器的支持。所以在早期程序员比较青睐于JavaScript以减少对服务器的负担，而与此同时也带来另一个问题：安全性。&lt;/p&gt;
+
+&lt;p&gt;而随着服务器的强壮，虽然程序员更喜欢运行于服务端的脚本以保证安全，但JavaScript仍然以其跨平台、容易上手等优势大行其道。同时，有些特殊功能（如&lt;a href=&#34;http://nbspll.github.io/item/AJAX/8425&#34;&gt;AJAX&lt;/a&gt;）必须依赖Javascript在客户端进行支持。随着引擎如V8和框架如&lt;a href=&#34;http://nbspll.github.io/item/Node.js&#34;&gt;Node.js&lt;/a&gt;的发展，及其事件驱动及&lt;a href=&#34;http://nbspll.github.io/item/%E5%BC%82%E6%AD%A5IO&#34;&gt;异步IO&lt;/a&gt;等特性，JavaScript逐渐被用来编写服务器端程序。&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Hello Hugo (一)</title>
