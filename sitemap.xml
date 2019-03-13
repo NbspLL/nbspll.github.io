@@ -3,6 +3,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
     <url>
+      <loc>http://nbspll.github.io/2019/just-a-test/</loc>
+      
+      <lastmod>2019-03-13T11:08:59+08:00</lastmod>
+      
+      
+      
+      
+    </url>
+  
+    <url>
       <loc>http://nbspll.github.io/categories/</loc>
       
       
@@ -14,6 +24,20 @@
   
     <url>
       <loc>http://nbspll.github.io/</loc>
+      
+      <lastmod>2019-03-13T11:08:59+08:00</lastmod>
+      
+      
+      
+      <priority>0</priority>
+      
+      
+    </url>
+  
+    <url>
+      <loc>http://nbspll.github.io/posts/</loc>
+      
+      <lastmod>2019-03-13T11:08:59+08:00</lastmod>
       
       
       

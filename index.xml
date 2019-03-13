@@ -6,7 +6,18 @@
     <description>Recent content in My New Hugo Site on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Wed, 13 Mar 2019 11:08:59 +0800</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Just a Test</title>
+      <link>http://nbspll.github.io/2019/just-a-test/</link>
+      <pubDate>Wed, 13 Mar 2019 11:08:59 +0800</pubDate>
+      
+      <guid>http://nbspll.github.io/2019/just-a-test/</guid>
+      <description>&lt;p&gt;just a test&lt;/p&gt;
+</description>
+    </item>
     
   </channel>
 </rss>
