@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Mac on My New Hugo Site</title>
-    <link>https://nbspll.github.io/tags/mac/</link>
+    <link>http://nbspll.github.io/tags/mac/</link>
     <description>Recent content in Mac on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 18 Feb 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://nbspll.github.io/tags/mac/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://nbspll.github.io/tags/mac/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Homebrew</title>
-      <link>https://nbspll.github.io/2019/homebrew/</link>
+      <link>http://nbspll.github.io/2019/homebrew/</link>
       <pubDate>Mon, 18 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://nbspll.github.io/2019/homebrew/</guid>
+      <guid>http://nbspll.github.io/2019/homebrew/</guid>
       <description>Homebrew，Mac OSX必备的软件管理工具 Homebrew 是Mac OS上一款软件包管理工具，通过brew可以很方便的安装和卸载软件工具。特别是对于开发者经常需要搭建一些开发环境来说往往只需要一条命令，十分方便，它几乎是我更换Mac或重新系统之后第一个安装的软件。
 安装brew 打开终端窗口, 粘贴以下脚本：
  /usr/bin/ruby -e &amp;quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&amp;quot;  运行脚本时会提示输入电脑管理员密码，然后回车即可。

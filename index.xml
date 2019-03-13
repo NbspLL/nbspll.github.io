@@ -6,16 +6,146 @@
     <description>Recent content in My New Hugo Site on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 13 Mar 2019 11:08:59 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 18 Feb 2019 17:05:32 +0800</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Just a Test</title>
-      <link>http://nbspll.github.io/2019/just-a-test/</link>
-      <pubDate>Wed, 13 Mar 2019 11:08:59 +0800</pubDate>
+      <title>Hello Hugo (一)</title>
+      <link>http://nbspll.github.io/2019/hugo%E6%95%99%E7%A8%8B/</link>
+      <pubDate>Mon, 18 Feb 2019 17:05:32 +0800</pubDate>
       
-      <guid>http://nbspll.github.io/2019/just-a-test/</guid>
-      <description>&lt;p&gt;just a test&lt;/p&gt;
+      <guid>http://nbspll.github.io/2019/hugo%E6%95%99%E7%A8%8B/</guid>
+      <description>
+
+&lt;!-- TOC --&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#%E6%90%AD%E5%BB%BA&#34;&gt;搭建&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#%E5%87%86%E5%A4%87%E5%B7%A5%E4%BD%9C&#34;&gt;准备工作&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;!-- /TOC --&gt;
+
+&lt;h2 id=&#34;搭建&#34;&gt;搭建&lt;/h2&gt;
+
+&lt;h3 id=&#34;准备工作&#34;&gt;准备工作&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Go语言环境&lt;br /&gt;
+Go语言各个平台的安装包请在官方网站处&lt;a href=&#34;https://studygolang.com/dl&#34;&gt;下载&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;配置安装Go环境&lt;br /&gt;
+Cmd 命令行中输入检查环境 &lt;code&gt;go&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;安装Git&lt;br /&gt;
+Git版本管理工具各个平台安装包从官方网站处&lt;a href=&#34;https://git-scm.com/downloads&#34;&gt;下载&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;下载hugo&lt;br /&gt;
+&amp;nbsp;hugo是github上的开源项目,所以直接去Github上&lt;a href=&#34;hugo是github上的开源项目,所以直接去github上下载&#34;&gt;下载&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;下载后解压到某个盘,注意路径中不能有&lt;font color=red&gt;中文&lt;/font&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;然后配置hugo的环境变量,否则不能使用,GO的配置环境&lt;a href=&#34;https://img-blog.csdn.net/20180204161822767?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvaHNybHpn/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast&#34;&gt;看这里&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;环境变量配置好了，打开命令行窗口,输入&lt;code&gt;hugo -h&lt;/code&gt; 检查环境是否正确&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Homebrew</title>
+      <link>http://nbspll.github.io/2019/homebrew/</link>
+      <pubDate>Mon, 18 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://nbspll.github.io/2019/homebrew/</guid>
+      <description>
+
+&lt;h1 id=&#34;homebrew-mac-osx必备的软件管理工具&#34;&gt;Homebrew，Mac OSX必备的软件管理工具&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://brew.sh/&#34;&gt;Homebrew&lt;/a&gt; 是Mac OS上一款软件包管理工具，通过&lt;code&gt;brew&lt;/code&gt;可以很方便的安装和卸载软件工具。特别是对于开发者经常需要搭建一些开发环境来说往往只需要一条命令，十分方便，它几乎是我更换Mac或重新系统之后第一个安装的软件。&lt;/p&gt;
+
+&lt;h2 id=&#34;安装brew&#34;&gt;安装brew&lt;/h2&gt;
+
+&lt;p&gt;打开终端窗口, 粘贴以下脚本：&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;code&gt;/usr/bin/ruby -e &amp;quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&amp;quot;&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;运行脚本时会提示输入电脑管理员密码，然后回车即可。&lt;/p&gt;
+
+&lt;p&gt;如果没有安装过 Xcode Command Line Tools ，会提示你需要安装，直接按提示操作即可。或者在安装brew之前，先运行：&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;code&gt;xcode-select --install&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;成功后可运行&lt;code&gt;brew doctor&lt;/code&gt;检测下安装是否成功。&lt;/p&gt;
+
+&lt;h2 id=&#34;修改brew源-加速软件安装速度&#34;&gt;修改brew源，加速软件安装速度&lt;/h2&gt;
+
+&lt;p&gt;因为国内网络环境的原因，安装了brew之后建议使用国内的镜像替换brew原来的镜像。&lt;/p&gt;
+
+&lt;p&gt;下面以使用清华大学开源软件镜像站为例：&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;code&gt;cd &amp;quot;$(brew --repo)&amp;quot;&lt;/code&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;code&gt;git remote set-url origin https://mirrors.tuna.tsinghua.edu.cn/git/homebrew/brew.git&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;code&gt;cd &amp;quot;$(brew --repo)/Library/Taps/homebrew/homebrew-core&amp;quot;&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;code&gt;git remote set-url origin https://mirrors.tuna.tsinghua.edu.cn/git/homebrew/homebrew-core.git&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;code&gt;brew update&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;在更改了brew的源之后，运行&lt;code&gt;brew doctor&lt;/code&gt;时会出现警告信息，可以无视。如果实在是有强迫症或者有梯子正常访问『外网』可以不用替换。&lt;/p&gt;
+
+&lt;h2 id=&#34;brew基本使用&#34;&gt;brew基本使用&lt;/h2&gt;
+
+&lt;p&gt;Homebrew的可执行命令是brew，其基本使用方法如下（以wget为例）。&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;code&gt;brew search wget # 查找软件包&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;brew install wget # 安装软件包&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;brew list # 列出已安装的软件包&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;brew remove wget # 删除软件包&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;brew info wget # 查看软件包信息&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;brew deps wget # 列出软件包的依赖关系&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;brew update # 更新brew&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;brew outdated # 列出过时的软件包（已安装但不是最新版本）&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;brew upgrade # 更新所有过时的软件包&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;brew upgrade wget # 更新指定的软件包wget&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;brew doctor # 检查brew的问题&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;brew cleanup # 清理旧版本的包缓存时&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;brew prune # 清理和删除无效 Link&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;例如需要安装nodejs,只需要运行&lt;code&gt;brew install node&lt;/code&gt;即可，会自动给你安装nodejs最新的版本（非LTS版）。&lt;/p&gt;
+
+&lt;p&gt;然后运行&lt;code&gt;node --version&lt;/code&gt; 即可查看安装的node的版本，如果command not found，一般是因为/usr/local/bin不在环境变量中，需要将/usr/local/bin加入到环境变量PATH。 如果你使用的bash，则运行：&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;code&gt;echo &#39;export PATH=&amp;quot;/usr/local/bin:PATH&amp;quot;&#39;  &amp;gt;&amp;gt;  ~/.bash_profile&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;像我使用的是zsh，配置文件在&lt;code&gt;~/.zshrc&lt;/code&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;code&gt;echo &#39;export PATH=&amp;quot;/usr/local/bin:PATH&amp;quot;&#39;  &amp;gt;&amp;gt;  ~/.zshrc&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&#34;解决brew安装软件时总是先update的问题&#34;&gt;解决brew安装软件时总是先update的问题&lt;/h3&gt;
+
+&lt;p&gt;在使用brew安装软件时，总是会先update，这个需要比较长的时间，可以通过下面的方式解决：&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;code&gt;echo &#39;export HOMEBREW_NO_AUTO_UPDATE=1&#39;  &amp;gt;&amp;gt;  ~/.bash_profile&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
 </description>
     </item>
     
