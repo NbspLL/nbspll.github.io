@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+  <meta http-equiv="content-type" content="text/html;charset=utf-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noodp"/>
+  <meta name="author" content="Covey.QU">
+  
+  
+  
+  
+  <link rel="next" href="https://nbspll.github.io/2019/homebrew/" />
+  <link rel="canonical" href="https://nbspll.github.io/2018/hello-hugo/" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+  <title>
+       
+       
+           Hello Hugo | My New Hugo Site
+       
+  </title>
+  <meta name="title" content="Hello Hugo | My New Hugo Site">
+    
+  
+  <link rel="stylesheet" href="/font/iconfont.css">
+  <link rel="stylesheet" href="/css/main.min.css">
+
+
+  
+  
+ 
+
+<script type="application/ld+json">
+ "@context" : "http://schema.org",
+    "@type" : "BlogPosting",
+    "mainEntityOfPage": {
+         "@type": "WebPage",
+         "@id": "https://nbspll.github.io/"
+    },
+    "articleSection" : "posts",
+    "name" : "Hello Hugo",
+    "headline" : "Hello Hugo",
+    "description" : "&nbsp;&nbsp;&nbsp;&nbsp;不算上17年的那一篇文章，其实有两年没有更新博客了。停滞了太久，都不知道要怎么再出发。回想起来好像还是最开始写独立博客的时候比较勤奋，只可惜博客系统换来换去，丢失了太多的博文。
+其实写博客还是有很多好处的，除了锻炼写作能力，比如可以保持思考的习惯，可以保持前沿技术的敏感性，可以督促自己不断学习，最主要的是可以沉淀自己…只是在越来越浮躁的社会，我们总是不由自主的想走捷径，一味的追求快速和便捷，比如平时遇到个技术问题，Google之后用 Evernote 记录下就好了，如果要写篇博文，可能还需要介绍下问题的背景，对于解决方案还需要做下发散。又比如突然冒出个什么想法或是看到某句特别有感触的话，可能就直接保存到 Google Keep 了，如果又要写篇博文，没人会懂你的柔软，只会觉得你无病呻吟。所以有时候想写点东西，又不知道写什么。其实这一直都不是个问题啊，就去写好了，有没有人喝彩，又有什么不同？
+在此之前是使用 Hexo，虽然各种主题插件支持都很完善，但是其缺点是一大堆nodejs的依赖，记得以前每次更新下 Node 就各种莫名其妙的问题，另外生成的速度非常慢。这次使用的 Hugo 是基于 Go 开发，也是我目前用得比较多的一门语言。直接编译生成一个二进制文件，没有包依赖的问题，生成速度相比 Hexo 快的不只是一点点。目前我博客所有博文加上各种 Page、Tag 页面300篇左右，生成速度不到1秒。于是花了几个周末的时间，把博客迁移到了 Hugo，嗯，又开始折腾了。
+安装 使用 Homebrew 安装.(如果还没有安装Homebrew，参考：这里)
+ brew install hugo  新建站点 直接在 Home 目录生成Blog 站点。
+ hugo new site ~/Blog  使用上述命令会在当前用户目录下面生成一个Blog 站点，打开后看到如下图的站点目录结构
+ Blog ├── archetypes ├── config.yaml ├── content ├── data ├── layouts ├── static └── themes  一共六个文件夹，外加一个全局配置文件config.yaml（类似 hexo 的_config.yml），各个文件夹的作用如下：
+ archetypes：给不同的类型定义默认FrontMatter， content：源文件，相当于 hexo 的 source 目录 data：数据文件，一般用不上 layouts：模板 static：静态资源，也就是不需要Hugo处理的静态资源，比如图片等 themes：第三方主题，将第三方主题拷贝到这个文件夹下即可使用  比较常用的就是 content 和 themes ，一个存放内容，一个存放主题。可以直接将 hexo 中 source 目录下的 md 文件全拷贝到content目录。 同时将图片资源文件拷贝到 static 目录。因为文章和目录结构都没有改变，所有文章里面的图片链接路径都不需要修改。如果之前的 Markdown 文件都使用了 Hexo 标准的 Front-matter，Hugo 支持 yaml、toml、json 三种格式的Front matter，像 title、date、categories、tags这样的字段，Hugo 也无缝支持。",
+    "inLanguage" : "en-us",
+    "author" : "Covey.QU",
+    "creator" : "Covey.QU",
+    "publisher": "Covey.QU",
+    "accountablePerson" : "Covey.QU",
+    "copyrightHolder" : "Covey.QU",
+    "copyrightYear" : "2018",
+    "datePublished": "2018-02-18 17:05:32 &#43;0800 CST",
+    "dateModified" : "2018-02-18 17:05:32 &#43;0800 CST",
+    "url" : "https://nbspll.github.io/2018/hello-hugo/",
+    "wordCount" : "119",
+    "keywords" : [ "hugo", "My New Hugo Site"]
+}
+</script>
+
+</head>
+
+  
+
+
+  <body class="">
+    <div class="wrapper">
+        <nav class="navbar">
+    <div class="container">
+        <div class="navbar-header header-logo">
+        	<a href="javascript:void(0);" class="theme-switch"><i class="iconfont icon-xihuan"></i></a>&nbsp;<a href="https://nbspll.github.io/">My New Hugo Site</a>
+        </div>
+        <div class="menu navbar-right">
+                
+                
+                <a class="menu-item" href="/posts/" title="">Blog</a>
+                
+                <a class="menu-item" href="/categories/" title="">Categories</a>
+                
+                <a class="menu-item" href="/tags/" title="">Tags</a>
+                
+                <a class="menu-item" href="/about/" title="">About</a>
+                
+        </div>
+    </div>
+</nav>
+<nav class="navbar-mobile" id="nav-mobile" style="display: none">
+     <div class="container">
+        <div class="navbar-header">
+            <div>  <a href="javascript:void(0);" class="theme-switch"><i class="iconfont icon-xihuan"></i></a>&nbsp;<a href="https://nbspll.github.io/">My New Hugo Site</a></div>
+            <div class="menu-toggle">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+     
+          <div class="menu" id="mobile-menu">
+                
+                
+                <a class="menu-item" href="/posts/" title="">Blog</a>
+                
+                <a class="menu-item" href="/categories/" title="">Categories</a>
+                
+                <a class="menu-item" href="/tags/" title="">Tags</a>
+                
+                <a class="menu-item" href="/about/" title="">About</a>
+                
+        </div>
+    </div>
+</nav>
+    	 <main class="main">
+          <div class="container">
+      		
+<article class="post-warp" itemscope itemtype="http://schema.org/Article">
+    <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">Hello Hugo</h1>
+        <div class="post-meta">
+                Written by <a itemprop="name" href="https://nbspll.github.io/" rel="author">Covey.QU</a> with ♥ 
+                <span class="post-time">
+                on <time datetime=2018-02-18 itemprop="datePublished">February 18, 2018</time>
+                </span>
+                in
+                <i class="iconfont icon-folder"></i>
+                <span class="post-category">
+                        <a href="https://nbspll.github.io/categories/blog/"> Blog </a>
+                        
+                </span>
+        </div>
+    </header>
+    <div class="post-content">
+        
+
+        
+
+        
+        
+     
+          
+          
+          
+
+          
+          
+          
+
+          
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;不算上17年的那一篇文章，其实有两年没有更新博客了。停滞了太久，都不知道要怎么再出发。回想起来好像还是最开始写独立博客的时候比较勤奋，只可惜博客系统换来换去，丢失了太多的博文。</p>
+
+<p>其实写博客还是有很多好处的，除了锻炼写作能力，比如可以保持思考的习惯，可以保持前沿技术的敏感性，可以督促自己不断学习，最主要的是可以沉淀自己…只是在越来越浮躁的社会，我们总是不由自主的想走捷径，一味的追求快速和便捷，比如平时遇到个技术问题，Google之后用 Evernote 记录下就好了，如果要写篇博文，可能还需要介绍下问题的背景，对于解决方案还需要做下发散。又比如突然冒出个什么想法或是看到某句特别有感触的话，可能就直接保存到 Google Keep 了，如果又要写篇博文，没人会懂你的柔软，只会觉得你无病呻吟。所以有时候想写点东西，又不知道写什么。其实这一直都不是个问题啊，就去写好了，有没有人喝彩，又有什么不同？</p>
+
+<p>在此之前是使用 Hexo，虽然各种主题插件支持都很完善，但是其缺点是一大堆nodejs的依赖，记得以前每次更新下 Node 就各种莫名其妙的问题，另外生成的速度非常慢。这次使用的 Hugo 是基于 Go 开发，也是我目前用得比较多的一门语言。直接编译生成一个二进制文件，没有包依赖的问题，生成速度相比 Hexo 快的不只是一点点。目前我博客所有博文加上各种 Page、Tag 页面300篇左右，生成速度不到1秒。于是花了几个周末的时间，把博客迁移到了 Hugo，嗯，又开始折腾了。</p>
+
+<h2 id="安装">安装</h2>
+
+<p>使用 Homebrew 安装.(如果还没有安装Homebrew，参考：<a href="https://liuzhichao.com/p/homebrew.html">这里</a>)</p>
+
+<ol>
+<li><code>brew install hugo</code></li>
+</ol>
+
+<h2 id="新建站点">新建站点</h2>
+
+<p>直接在 Home 目录生成Blog 站点。</p>
+
+<ol>
+<li><code>hugo new site ~/Blog</code></li>
+</ol>
+
+<p>使用上述命令会在当前用户目录下面生成一个Blog 站点，打开后看到如下图的站点目录结构</p>
+
+<ol>
+<li><code>Blog</code></li>
+<li><code>├── archetypes</code></li>
+<li><code>├── config.yaml</code></li>
+<li><code>├── content</code></li>
+<li><code>├── data</code></li>
+<li><code>├── layouts</code></li>
+<li><code>├── static</code></li>
+<li><code>└── themes</code></li>
+</ol>
+
+<p>一共六个文件夹，外加一个全局配置文件config.yaml（类似 hexo 的_config.yml），各个文件夹的作用如下：</p>
+
+<ul>
+<li>archetypes：给不同的类型定义默认FrontMatter，</li>
+<li>content：源文件，相当于 hexo 的 source 目录</li>
+<li>data：数据文件，一般用不上</li>
+<li>layouts：模板</li>
+<li>static：静态资源，也就是不需要Hugo处理的静态资源，比如图片等</li>
+<li>themes：第三方主题，将第三方主题拷贝到这个文件夹下即可使用</li>
+</ul>
+
+<p>比较常用的就是 content 和 themes ，一个存放内容，一个存放主题。可以直接将 hexo 中 source 目录下的 md 文件全拷贝到content目录。 同时将图片资源文件拷贝到 static 目录。因为文章和目录结构都没有改变，所有文章里面的图片链接路径都不需要修改。如果之前的 Markdown 文件都使用了 Hexo 标准的 Front-matter，Hugo 支持 yaml、toml、json 三种格式的Front matter，像 title、date、categories、tags这样的字段，Hugo 也无缝支持。</p>
+
+<p>然后在<a href="https://themes.gohugo.io/">官网</a>选择一个主题拷贝到 themes 目录。然后修改<code>config.yaml</code>中 theme 为主题的目录名称，运行 <code>hugo --server</code> 在浏览器里打开： <a href="http://localhost:1313/">http://localhost:1313</a> 即可。 目前我使用的主题是参考官网上的一些主题，差不多花了三个周末自制的一款主题。还有一些不太满意的地方，一些功能也直接代码写死了，没有提取成变量，不方便共享。慢慢完善后再考虑开源。</p>
+
+<p>总体来说，迁移的成本是很小的。修改一下主题之后就可以部署上线了。</p>
+
+<h2 id="部署上线">部署上线</h2>
+
+<p>同 Hexo 一样，hugo 也是生成全静态文件。</p>
+
+<ol>
+<li><code>hugo --gc --minify</code></li>
+</ol>
+
+<p>使用上面的命令生成站点，然后直接将这些文件部署到服务器上即可。 同样也可以部署到 Github Pages。目前我是直接使用 rsync 命令同步到自己在阿里云的服务器上。服务端也换成了 Caddy，不再使用 Nginx，关于这点，后面再写篇博文。</p>
+
+    </div>
+
+    <div class="post-copyright">
+             
+            <p class="copyright-item">
+                <span>Author:</span>
+                <span>Covey.QU </span>
+                </p>
+            
+           
+             
+            <p class="copyright-item">
+                    <span>Link:</span>
+                    <a href=https://nbspll.github.io/2018/hello-hugo/>https://nbspll.github.io/2018/hello-hugo/</span>
+            </p>
+            
+            
+    </div>
+
+  
+    <div class="post-tags">
+        
+            <section>
+            <i class="iconfont icon-tag"></i>Tag(s): 
+            
+            <span class="tag"><a href="https://nbspll.github.io/tags/hugo/">
+                    #hugo</a></span>
+            
+            </section>
+        
+        <section>
+                <a href="javascript:window.history.back();">back</a></span> · 
+                <span><a href="https://nbspll.github.io/">home</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav">
+         
+        
+        <a href="https://nbspll.github.io/2019/homebrew/" class="next" rel="next" title="Homebrew">Homebrew&nbsp;<i class="iconfont icon-right"></i></a>
+        
+    </div>
+
+    <div class="post-comment">
+          
+                 
+          
+    </div>
+</article>
+          </div>
+		   </main>
+      <footer class="footer">
+    <div class="copyright">
+        &copy;
+        
+        <span itemprop="copyrightYear">2000 - 2019</span>
+        
+        <span class="with-love">
+    	 <i class="iconfont icon-love"></i> 
+         </span>
+         
+            <span class="author" itemprop="copyrightHolder"><a href="https://nbspll.github.io/">Covey.QU</a> | </span> 
+         
+
+         
+		  <span>Powered by <a href="https://gohugo.io/" target="_blank" rel="external nofollow">Hugo</a> & <a href="https://github.com/liuzc/leaveit" target="_blank" rel="external nofollow">LeaveIt</a></span> 
+    </div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    <script src="/js/vendor_no_gallery.min.js" async=""></script>
+    
+  
+
+
+
+     </div>
+  </body>
+</html>

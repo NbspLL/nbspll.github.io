@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mac on My New Hugo Site</title>
+    <link>https://nbspll.github.io/tags/mac/</link>
+    <description>Recent content in Mac on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 18 Feb 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://nbspll.github.io/tags/mac/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Homebrew</title>
+      <link>https://nbspll.github.io/2019/homebrew/</link>
+      <pubDate>Mon, 18 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://nbspll.github.io/2019/homebrew/</guid>
+      <description>Homebrew，Mac OSX必备的软件管理工具 Homebrew 是Mac OS上一款软件包管理工具，通过brew可以很方便的安装和卸载软件工具。特别是对于开发者经常需要搭建一些开发环境来说往往只需要一条命令，十分方便，它几乎是我更换Mac或重新系统之后第一个安装的软件。
+安装brew 打开终端窗口, 粘贴以下脚本：
+ /usr/bin/ruby -e &amp;quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&amp;quot;  运行脚本时会提示输入电脑管理员密码，然后回车即可。
+如果没有安装过 Xcode Command Line Tools ，会提示你需要安装，直接按提示操作即可。或者在安装brew之前，先运行：
+ xcode-select --install  成功后可运行brew doctor检测下安装是否成功。
+修改brew源，加速软件安装速度 因为国内网络环境的原因，安装了brew之后建议使用国内的镜像替换brew原来的镜像。
+下面以使用清华大学开源软件镜像站为例：
+ cd &amp;quot;$(brew --repo)&amp;quot; git remote set-url origin https://mirrors.tuna.tsinghua.edu.cn/git/homebrew/brew.git
+ cd &amp;quot;$(brew --repo)/Library/Taps/homebrew/homebrew-core&amp;quot;
+ git remote set-url origin https://mirrors.tuna.tsinghua.edu.cn/git/homebrew/homebrew-core.git
+ brew update
+  在更改了brew的源之后，运行brew doctor时会出现警告信息，可以无视。如果实在是有强迫症或者有梯子正常访问『外网』可以不用替换。
+brew基本使用 Homebrew的可执行命令是brew，其基本使用方法如下（以wget为例）。
+ brew search wget # 查找软件包 brew install wget # 安装软件包 brew list # 列出已安装的软件包 brew remove wget # 删除软件包 brew info wget # 查看软件包信息 brew deps wget # 列出软件包的依赖关系 brew update # 更新brew brew outdated # 列出过时的软件包（已安装但不是最新版本） brew upgrade # 更新所有过时的软件包 brew upgrade wget # 更新指定的软件包wget brew doctor # 检查brew的问题 brew cleanup # 清理旧版本的包缓存时 brew prune # 清理和删除无效 Link  例如需要安装nodejs,只需要运行brew install node即可，会自动给你安装nodejs最新的版本（非LTS版）。</description>
+    </item>
+    
+  </channel>
+</rss>
