@@ -73,6 +73,16 @@
     </url>
   
     <url>
+      <loc>http://nbspll.github.io/2019/%E6%B5%B7%E5%AD%90/</loc>
+      
+      <lastmod>2019-02-18T17:05:32+08:00</lastmod>
+      
+      
+      
+      
+    </url>
+  
+    <url>
       <loc>http://nbspll.github.io/about/</loc>
       
       <lastmod>2019-02-18T17:05:21+08:00</lastmod>
@@ -271,7 +281,7 @@
     </url>
   
     <url>
-      <loc>http://nbspll.github.io/tags/%E4%BD%9C%E6%96%87/</loc>
+      <loc>http://nbspll.github.io/categories/%E5%93%81%E9%89%B4/</loc>
       
       <lastmod>2019-02-18T17:05:32+08:00</lastmod>
       
@@ -295,7 +305,19 @@
     </url>
   
     <url>
-      <loc>http://nbspll.github.io/categories/%E6%96%87%E7%AB%A0/</loc>
+      <loc>http://nbspll.github.io/tags/%E6%96%87%E7%AB%A0/</loc>
+      
+      <lastmod>2019-02-18T17:05:32+08:00</lastmod>
+      
+      
+      
+      <priority>0</priority>
+      
+      
+    </url>
+  
+    <url>
+      <loc>http://nbspll.github.io/categories/%E9%A2%98%E8%AE%B0/</loc>
       
       <lastmod>2019-02-18T17:05:32+08:00</lastmod>
       

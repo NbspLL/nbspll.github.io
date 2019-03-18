@@ -48,11 +48,20 @@
     </item>
     
     <item>
-      <title>文章</title>
-      <link>http://nbspll.github.io/categories/%E6%96%87%E7%AB%A0/</link>
+      <title>品鉴</title>
+      <link>http://nbspll.github.io/categories/%E5%93%81%E9%89%B4/</link>
       <pubDate>Mon, 18 Feb 2019 17:05:32 +0800</pubDate>
       
-      <guid>http://nbspll.github.io/categories/%E6%96%87%E7%AB%A0/</guid>
+      <guid>http://nbspll.github.io/categories/%E5%93%81%E9%89%B4/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>题记</title>
+      <link>http://nbspll.github.io/categories/%E9%A2%98%E8%AE%B0/</link>
+      <pubDate>Mon, 18 Feb 2019 17:05:32 +0800</pubDate>
+      
+      <guid>http://nbspll.github.io/categories/%E9%A2%98%E8%AE%B0/</guid>
       <description></description>
     </item>
     
